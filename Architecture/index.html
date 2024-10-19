@@ -3,45 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing-Page</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="wrapper-1">
-      <div class="headers">
-        <li id="bold-header">Header Logo</li>
-        <div class="links">
-          <li>header link one</li>
-          <li>header link two</li>
-          <li>header link three</li>
+    <div class="overall">
+      <header class="upper">
+        <div class="head">
+          <div class="logo">Header Logo</div>
+          <nav class="links">
+            <ul>
+              <li>header link one</li>
+              <li>header link two</li>
+              <li>header link three</li>
+            </ul>
+          </nav>
         </div>
-      </div>
-      <div class="header-main">
         <main>
-          <div class="main-placeholder">
-            <div class="main-message">
-              <div class="main-text">
-                <h1>This website is <br />awesome</h1>
-              </div>
-              <div class="subtext">
-                <p>
-                  This website has some subtext that goes here under the main
-                  title. it's a smaller font and the color is lower contrast
-                </p>
-              </div>
-              <button>Sign up</button>
-              <div class="placeholder">this is a placeholder for an image</div>
+          <div class="description">
+            <div class="desc">
+              <h1>This website is awesome</h1>
+              <p>
+                This website has some subtext that goes here under the main
+                title . Its a smaler font and the color is lower contrast
+              </p>
+              <button>Sign Up</button>
+            </div>
+            <div class="plc-img">
+              <div class="placeholder">this is a placeholder for image</div>
             </div>
           </div>
         </main>
+      </header>
+      <section class="section">
+        <h2>Some random information.</h2>
+        <div class="images">
+          <div class="boxes">
+            <div class="description">
+              this is an subtext under an illustration or image
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="description">
+              this is an subtext under an illustration or image
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="description">
+              this is an subtext under an illustration or image
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="description">
+              this is an subtext under an illustration or image
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="quote">
+        <p>
+          This is an inspiring quote, or a testimonial from a customer. Maybe
+          its just filling space, or maybe people will actually read it. Who
+          knows? All I know is thet it looks nice
+        </p>
+        <p id="name">-Thor, God of Thunder</p>
       </div>
+      <div class="summary">
+        <summary id="blue-holder">
+          <div class="first-summary">
+            <h3>Call to action,! Its, time!</h3>
+            <p>Sign up for product by clickig that button right over there!</p>
+          </div>
+          <button>Sign up</button>
+        </summary>
+      </div>
+      <footer class="foot">Copyright @ The Odin Project 2021</footer>
     </div>
   </body>
 </html>
