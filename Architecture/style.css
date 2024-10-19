@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .upper {
   background-color: #1f2937;
   display: flex;
@@ -11,9 +12,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 1%;
 }
 .links {
-  margin-right: 10%;
+  margin-right: 11%;
 }
 .links ul {
   display: flex;
@@ -25,6 +27,7 @@
 .logo {
   font-family: Oswald;
   color: white;
+  margin-left: 10%;
 }
 .links li {
   font-size: 12px;
@@ -38,27 +41,52 @@
   color: white;
   justify-content: center;
   align-items: center;
+  padding: 100px;
 }
+
 .desc {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 30%;
+  color: white;
+  margin-right: 50px;
 }
 .description button {
   align-self: flex-start;
-  width: 10%;
+  width: 30%;
   color: white;
   padding: 5px;
   background-color: #3882f6;
   border: none;
   border-radius: 6px;
   font-family: Oswald;
+  width: 22%;
+  margin-top: 10px;
+}
+.placeholder {
+  background-color: grey;
+  padding: 90px;
 }
 .section h2 {
   color: black;
   font-family: Oswald;
 }
-.section {
+.parent {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.placeholders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding-top: 25px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,23 +95,45 @@
 .images {
   display: flex;
 }
+
+.sub {
+  color: black;
+  display: flex;
+  font-family: Oswald;
+  font-size: 18px;
+  width: 140px;
+  text-align: center;
+}
 .boxes {
   display: flex;
   border: 3px solid rgb(58, 58, 246);
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 15px;
   margin: 20px;
 }
-.description {
-  padding: 20px;
-}
+
+/*For the quote*/
 .quote {
-  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px;
   background-color: #e5e7eb;
-  font-size: 30px;
+  font-size: 27px;
   font-family: Fira Code;
   color: #1f2937;
+}
+.message {
+  display: flex;
+  padding: 30px;
+  width: 64%;
+}
+.author {
+  align-self: flex-end;
+  margin-right: 19%;
+  font-size: 20px;
 }
 #name {
   font-size: 12px;
@@ -98,16 +148,15 @@
   background-color: #3882f6;
   padding: 50px;
   margin: 20px;
+  gap: 20px;
+  color: white;
   width: 70%;
   display: flex;
   justify-content: center;
   font-family: Fira Code;
 }
-#blue-holder h3 {
-  color: white;
-}
+
 #blue-holder button {
-  align-self: flex-end;
   width: 15%;
   color: white;
   padding: 7px;
