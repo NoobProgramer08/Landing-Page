@@ -14,10 +14,11 @@
 }
 .links {
   margin-right: 11%;
+  cursor: pointer;
 }
 .links ul {
   display: flex;
-  width: 400px;
+  width: 474px;
   justify-content: space-between;
   font-size: 12px;
   gap: 20px;
@@ -32,6 +33,12 @@
   font-family: Fira Code;
   color: #e5e7eb;
   list-style-type: none;
+  padding: 2%;
+}
+.links li:hover {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
 }
 .description {
   font-family: Fira Code;
@@ -48,6 +55,17 @@
   width: 30%;
   color: white;
   margin-right: 50px;
+}
+#sign-up {
+  padding: 2%;
+  width: 43%;
+  font-size: 81%;
+}
+#sign-up:active {
+  opacity: 0.5;
+}
+#sign-up:hover {
+  background-color: black;
 }
 .description button {
   align-self: flex-start;
@@ -121,7 +139,7 @@
   font-size: 27px;
   font-family: Fira Code;
   color: #1f2937;
-  padding: 20%;
+  padding: 10%;
 }
 .message {
   display: flex;
